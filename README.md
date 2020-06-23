@@ -1,11 +1,10 @@
 ### Date created
-Include the date you created this project and README file.
+This project and README file was created on Tuesday, June 23, 2020.
 
-### Project Title
-Replace the Project Title
+### BikeShare Analysis
 
 ### Description
-Describe what your project is about and what it does
+In this project, I utilize python to analyze information collected by Motivate, a bike share system provider. The three cities being analyzed are Chicago, Washington, and New York City.
 
 ### Files used
 Include the files used
