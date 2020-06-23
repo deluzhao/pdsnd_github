@@ -10,5 +10,5 @@ In this project, I utilize python to analyze information collected by Motivate, 
 I used three CSV files for the data on the three cities which were named chicago.csv, washington.csv, and new_york_city.csv and a template file named bikeshare.py which I did my work on.
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
+Currently, no extra sources have been used.
 
