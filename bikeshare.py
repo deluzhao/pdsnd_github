@@ -78,10 +78,10 @@ def time_stats(df):
     cs_month = df['month'].value_counts().index[0]
     months = ['january', 'february', 'march', 'april', 'may', 'june']
     cs_month = months[cs_month-1]
-    print("The most common month is", cs_month.title() + ". If you filtered for a specific month, the most frequent month would be the same as the specific month.")
+    print("The most common month is", cs_month.title() + ". The most common month is skewed if you filtered by day.")
     # Displays the most common day of week
     cs_dow = df['day_of_week'].value_counts().index[0]
-    print("The most common day of week is", cs_dow + ". If you filtered for a specific day, the most frequent day would be the same as the specific day.")
+    print("The most common day of week is", cs_dow + ". The most common day of the week is skewed if you filtered by day.")
 
     # Displays the most common start hour
     df['hour'] = df['Start Time'].dt.hour
