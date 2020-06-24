@@ -213,12 +213,12 @@ def user_stats(df):
 def raw_data(df):
     
     # Asks user if they want the raw data, giving 5 rows at a time
-    more_data = input('Would you like to see the raw data? Please type "yes" or "no". ')
+    more_data = input('Would you like to see 5 rows of the raw data? Please type "yes" or "no". ')
     count = 0
     while more_data == 'yes':
         print(df[count:count+5])
         count += 5
-        more_data = input('Would you like to see more? ')
+        more_data = input('Would you like to see another 5 rows? ')
     
 def main():
     while True:
